@@ -90,7 +90,7 @@ defmodule Mix.Generator do
   end
 
   @doc """
-  Embeds a text given by `contents` into the current module.
+  Embeds text given by `contents` into the current module.
 
   It will define a private function with the `name` followed by
   `_text` that expects no arguments.

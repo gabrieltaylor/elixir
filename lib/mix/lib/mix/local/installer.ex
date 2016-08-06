@@ -25,7 +25,7 @@ defmodule Mix.Local.Installer do
   @callback check_install_spec(install_spec, opts :: Keyword.t) :: :ok | {:error, String.t}
 
   @doc """
-  Returns a list of already installed version of the same archive or escript.
+  Returns a list of already installed versions of the same archive or escript.
   """
   @callback find_previous_versions(String.t, Path.t) :: [Path.t]
 
